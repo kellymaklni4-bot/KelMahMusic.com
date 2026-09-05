@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kel Mah | Official Website</title>
+  <meta name="description" content="Official website of Kel Mah — Malawi Drill & Hip-Hop artist. Music, videos, releases and more.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080808;
+      color: white;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0,0,0,0.8);
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #aaa;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 120px 7% 60px;
+      background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.9)),
+        radial-gradient(circle at center, #333 0%, #080808 65%);
+    }
+
+    .hero-content {
+      max-width: 700px;
+    }
+
+    .tag {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 12px;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(60px, 13vw, 130px);
+      line-height: 0.85;
+      margin-bottom: 25px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #ccc;
+      max-width: 550px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 28px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+
+    section {
+      padding: 90px 7%;
+    }
+
+    .section-title {
+      font-size: 42px;
+      margin-bottom: 40px;
+    }
+
+    .release {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .release-art {
+      min-height: 350px;
+      background: linear-gradient(135deg, #222, #555, #111);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .release-info h3 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .release-info p {
+      color: #aaa;
+      line-height: 1.7;
+      margin-bottom: 25px;
+    }
+
+    .about {
+      background: #111;
+    }
+
+    .about p {
+      max-width: 750px;
+      color: #bbb;
+      font-size: 19px;
+      line-height: 1.8;
+    }
+
+    .socials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .socials a {
+      border: 1px solid #444;
+      padding: 15px 25px;
+      color: white;
+      text-decoration: none;
+    }
+
+    footer {
+      padding: 40px 7%;
+      border-top: 1px solid #222;
+      color: #777;
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        display: none;
+      }
+
+      .release {
+        grid-template-columns: 1fr;
+      }
+
+      .release-art {
+        min-height: 280px;
+      }
+
+      section {
+        padding: 70px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">KEL MAH</div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#music">Music</a>
+    <a href="#about">About</a>
+    <a href="#connect">Connect</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="tag">Malawi 🇲🇼 • Hip-Hop • Drill</div>
+
+      <h1>KEL<br>MAH</h1>
+
+      <p>
+        You might've seen me before, but you don't know Kel Mah yet.
+        The journey is only getting started.
+      </p>
+
+      <a class="button" href="#music">LISTEN NOW</a>
+    </div>
+  </section>
+
+
+  <section id="music">
+    <h2 class="section-title">LATEST RELEASE</h2>
+
+    <div class="release">
+
+      <div class="release-art">
+        FAZ<br>DE NOVO
+      </div>
+
+      <div class="release-info">
+        <h3>Faz de novo</h3>
+
+        <p>
+          The latest chapter from Kel Mah.
+          Stream the music and follow the journey.
+        </p>
+
+        <a class="button" href="#">
+          STREAM NOW
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="about" id="about">
+
+    <h2 class="section-title">ABOUT KEL MAH</h2>
+
+    <p>
+      Kel Mah is a Malawi Drill and Hip-Hop artist bringing
+      personal storytelling, raw energy and a distinctive sound
+      from Malawi to the world.
+    </p>
+
+  </section>
+
+
+  <section id="connect">
+
+    <h2 class="section-title">CONNECT</h2>
+
+    <div class="socials">
+      <a href="#">YouTube</a>
+      <a href="#">TikTok</a>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">SoundCloud</a>
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+  © 2026 Kel Mah. All rights reserved.
+</footer>
+
+</body>
+  </html>
